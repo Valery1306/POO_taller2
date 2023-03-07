@@ -1,4 +1,4 @@
-import clase1;
+import clase1.Animal;
 import clase1.Movie;
 
 public class App {
@@ -8,4 +8,5 @@ public class App {
 
         
         
+}
 }
