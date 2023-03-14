@@ -5,9 +5,40 @@ import java.util.Scanner;
 public class Animal {
     //Atributos
     private String nombre;
-    public int edad;
+    private int edad;
+    private String tipo;
 
     Scanner lectura=new Scanner(System.in);
+
+    //metodo constructor
+
+    public Animal(){
+
+    }
+  
+    public Animal(String nombre, int edad, String tipo) {
+        this.nombre = nombre;
+        this.edad = edad;
+       
+    }
+    
+
+    //metodos accesores 
+    public int getEdad(){
+        return edad;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+    
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int setEdad(int edad){
+        return this.edad=edad;
+    }
         
     //Metodos
     public void registrarAnimal(){
